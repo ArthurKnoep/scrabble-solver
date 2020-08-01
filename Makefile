@@ -1,5 +1,8 @@
 run:
-	go run cmd/cmd.go
+	go run cmd/main.go
 
 build:
-	go build -o scrabble-solver cmd/cmd.go
+	go build -o scrabble-solver cmd/main.go
+
+clean:
+	rm scrabble-solver
